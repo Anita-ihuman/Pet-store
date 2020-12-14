@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 import Pets from "./Pets";
-import Header from './Header/Header'
-import Nav from './Nav/Nav'
+import Header from "./Header/Header";
+import Nav from "./Nav/Nav";
+import RandomText from "./RandomText";
 
 const FirstPets = {
   img:
-    "https://myfox8.com/wp-content/uploads/sites/17/2019/09/gettyimages-1071204136.jpg?w=876&h=493&crop=1",
+    "https://image.freepik.com/free-vector/petshop-with-cat-dog_9645-763.jpg",
   title: "Jerry",
   specie: "tabby cat",
 };
@@ -18,23 +19,51 @@ const secondPets = {
   specie: "brown tabby",
 };
 
-
+const randomText = {
+  test: "Meow",
+ message: "I want to be your favorite pet!!!"
+};
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Header/>
-      <Pets 
-        img={FirstPets.img}
-        title={FirstPets.title}
-        specie={FirstPets.specie}
-      />
-      <Pets
-        img={secondPets.img}
-        title={secondPets.title}
-        specie={secondPets.specie}
-      />
+      <Header />
+      <RandomText test={randomText.test} message={randomText.message} />
+
+      <div className="pets-flex">
+        <Pets
+          img={FirstPets.img}
+          title={FirstPets.title}
+          specie={FirstPets.specie}
+        />
+        <Pets
+          img={FirstPets.img}
+          title={FirstPets.title}
+          specie={FirstPets.specie}
+        />
+        <Pets
+          img={secondPets.img}
+          title={secondPets.title}
+          specie={secondPets.specie}
+        />
+        <Pets
+          img={secondPets.img}
+          title={secondPets.title}
+          specie={secondPets.specie}
+        />
+        <Pets
+          img={secondPets.img}
+          title={secondPets.title}
+          specie={secondPets.specie}
+        />
+
+        <Pets
+          img={secondPets.img}
+          title={secondPets.title}
+          specie={secondPets.specie}
+        />
+      </div>
     </div>
   );
 }
