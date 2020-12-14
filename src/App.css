@@ -1,9 +1,9 @@
 .App {
   text-align: center;
- 
 }
-.pets-flex{
+.pets-flex {
   display: flex;
+  justify-content: center;
 }
 
 .App-logo {

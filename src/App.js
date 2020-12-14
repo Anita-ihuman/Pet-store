@@ -4,6 +4,8 @@ import Pets from "./Pets";
 import Header from "./Header/Header";
 import Nav from "./Nav/Nav";
 import RandomText from "./RandomText";
+import SlideShow from "./Slides/SlideShow";
+
 
 const FirstPets = {
   img:
@@ -21,7 +23,7 @@ const secondPets = {
 
 const randomText = {
   test: "Meow",
- message: "I want to be your favorite pet!!!"
+  message: "I want to be your favorite pet!!!",
 };
 
 function App() {
@@ -32,36 +34,11 @@ function App() {
       <RandomText test={randomText.test} message={randomText.message} />
 
       <div className="pets-flex">
-        <Pets
+      
+        <SlideShow
           img={FirstPets.img}
           title={FirstPets.title}
           specie={FirstPets.specie}
-        />
-        <Pets
-          img={FirstPets.img}
-          title={FirstPets.title}
-          specie={FirstPets.specie}
-        />
-        <Pets
-          img={secondPets.img}
-          title={secondPets.title}
-          specie={secondPets.specie}
-        />
-        <Pets
-          img={secondPets.img}
-          title={secondPets.title}
-          specie={secondPets.specie}
-        />
-        <Pets
-          img={secondPets.img}
-          title={secondPets.title}
-          specie={secondPets.specie}
-        />
-
-        <Pets
-          img={secondPets.img}
-          title={secondPets.title}
-          specie={secondPets.specie}
         />
       </div>
     </div>
