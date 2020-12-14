@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Pets from "./Pets";
-import Header from './Header'
-import Nav from './Nav'
+import Header from './Header/Header'
+import Nav from './Nav/Nav'
 
 const FirstPets = {
   img:
