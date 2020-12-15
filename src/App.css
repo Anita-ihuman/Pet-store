@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: cadetblue;
+  background-color: rgb(183, 238, 240);
 }
 .pets-flex {
   display: flex;

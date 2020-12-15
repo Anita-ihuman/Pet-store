@@ -11,7 +11,7 @@ import About from "./Menu/About/about";
 import Contact from "./Menu/Contact/contact";
 import Login from "./Menu/Login/login";
 import PetChoice from "./Menu/PetChoice/petChoice";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const FirstPets = {
   img:
@@ -36,18 +36,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav></Nav>
-        <Burger pageWrapId={"page-wrap"} outerContainerId={"App"}>
-          <Link className="nav-link" to={"/login"}>
-            Login
-          </Link>
-          <Link className="nav-link" to={"/about"}>
-            About
-          </Link>
-          <Link className="nav-link" to={"/contact"}>
-              Contact Us
-          </Link>
-        </Burger>
+        <Nav />
+        <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Header />
         <RandomText test={randomText.test} message={randomText.message} />
         <div className="auth-inner">
