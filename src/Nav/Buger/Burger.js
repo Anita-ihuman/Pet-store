@@ -1,6 +1,6 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import Footer from "../../Footer/Footer";
+
 
 const Burger = (props) => {
   return (
@@ -21,7 +21,7 @@ const Burger = (props) => {
       <a className="menu-item" href="/contact">
         Contact us
       </a>
-      <Footer />
+   
     </Menu>
   );
 };

@@ -6,6 +6,7 @@ import Nav from "./Nav/Nav";
 import RandomText from "./RandomText";
 import SlideShow from "./Slides/SlideShow";
 import Burger from "./Nav/Buger/Burger";
+import Footer from "./Footer/Footer";
 
 const FirstPets = {
   img:
@@ -41,6 +42,7 @@ function App() {
           specie={FirstPets.specie}
         />
       </div>
+      <Footer />
     </div>
   );
 }
