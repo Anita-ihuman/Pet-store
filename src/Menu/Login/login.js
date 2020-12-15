@@ -7,7 +7,7 @@ const Login = () => {
       <h3>Sign In</h3>
 
       <div className="form-group">
-        <label>Email address</label>
+        <label>Email address:</label>
         <input
           type="email"
           className="form-control"
@@ -16,7 +16,7 @@ const Login = () => {
       </div>
 
       <div className="form-group">
-        <label>Password</label>
+        <label>Password:</label>
         <input
           type="password"
           className="form-control"

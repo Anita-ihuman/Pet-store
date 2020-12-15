@@ -6,9 +6,9 @@ const Header=() =>{
     return (
       <div className="Header">
         <img
-          src="https://image.freepik.com/free-vector/petshop-with-cat-dog_9645-763.jpg"
-                alt=""
-                width= '300px'
+          src="https://seeklogo.com/images/C/cat-logo-E6BC30BEB2-seeklogo.com.png"
+          alt=""
+          width="300px"
         ></img>
       </div>
     );
