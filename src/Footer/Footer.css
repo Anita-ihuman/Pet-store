@@ -1,4 +1,15 @@
 .foot{
-    background-color: rgb(235, 233, 233);
+    background-color: rgb(224, 151, 151);
   padding: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconix{
+    padding: 5px;
+}
+.iconix:hover{
+    color: hotpink;
 }

@@ -7,6 +7,11 @@ import RandomText from "./RandomText";
 import SlideShow from "./Slides/SlideShow";
 import Burger from "./Nav/Buger/Burger";
 import Footer from "./Footer/Footer";
+import About from "./Menu/About/about";
+import Contact from "./Menu/Contact/contact";
+import Login from "./Menu/Login/login";
+import PetChoice from "./Menu/PetChoice/petChoice";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const FirstPets = {
   img:
@@ -29,21 +34,40 @@ const randomText = {
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
-      <Header />
-      <RandomText test={randomText.test} message={randomText.message} />
-
-      <div className="pets-flex">
-        <SlideShow
-          img={FirstPets.img}
-          title={FirstPets.title}
-          specie={FirstPets.specie}
-        />
+    <Router>
+      <div className="App">
+        <Nav></Nav>
+        <Burger pageWrapId={"page-wrap"} outerContainerId={"App"}>
+          <Link className="nav-link" to={"/login"}>
+            Login
+          </Link>
+          <Link className="nav-link" to={"/about"}>
+            About
+          </Link>
+          <Link className="nav-link" to={"/contact"}>
+              Contact Us
+          </Link>
+        </Burger>
+        <Header />
+        <RandomText test={randomText.test} message={randomText.message} />
+        <div className="auth-inner">
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route path="/login" component={Login} />
+            <Route path="/petChoice" component={PetChoice} />
+            <Route path="/petChoice" component={Contact} />
+          </Switch>
+        </div>
+        <div className="pets-flex">
+          <SlideShow
+            img={FirstPets.img}
+            title={FirstPets.title}
+            specie={FirstPets.specie}
+          />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 
