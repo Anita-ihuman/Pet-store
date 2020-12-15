@@ -5,6 +5,7 @@ import Header from "./Header/Header";
 import Nav from "./Nav/Nav";
 import RandomText from "./RandomText";
 import SlideShow from "./Slides/SlideShow";
+import Burger from "./Nav/Buger/Burger";
 
 
 const FirstPets = {
@@ -30,11 +31,11 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <Header />
       <RandomText test={randomText.test} message={randomText.message} />
 
       <div className="pets-flex">
-      
         <SlideShow
           img={FirstPets.img}
           title={FirstPets.title}
