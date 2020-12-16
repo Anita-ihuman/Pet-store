@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  
   return (
     <div className="foot">
       <p>
@@ -15,23 +16,31 @@ const Footer = () => {
         <IconContext.Provider
           value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
         >
-          <div className="iconix">
-            <FaTwitter href="https://twitter.com/Anita_ihuman" />
-          </div>
+          <a
+            href="https://twitter.com/Anita_ihuman"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FaTwitter />
+          </a>
         </IconContext.Provider>
         <IconContext.Provider
           value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
         >
-          <div className="iconix">
-            <FaGithub href="https://github.com/Anita-ihuman" />
-          </div>
+          <a
+            href="https://github.com/Anita-ihuman"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FaGithub />
+          </a>
         </IconContext.Provider>
         <IconContext.Provider
           value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
         >
-          <div className="iconix">
-            <FaLinkedin href="https://twitter.com/Anita_ihuman" />
-          </div>
+          <a href="https://twitter.com/Anita_ihuman">
+            <FaLinkedin />
+          </a>
         </IconContext.Provider>
       </div>
     </div>
