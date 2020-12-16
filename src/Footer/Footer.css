@@ -1,15 +1,30 @@
-.foot{
-    background-color: rgb(224, 151, 151);
+.foot {
+  background-color: rgb(224, 151, 151);
   padding: 10px;
 }
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.iconix{
-    padding: 5px;
+.icons a {
+  padding: 8px;
 }
-.iconix:hover{
-    color: hotpink;
+.icons a:hover {
+  animation: spinAround 2s linear infinite;
+}
+
+.icons a:hover {
+  background: rgb(255, 255, 255);
+  color: #363636;
+  border-radius: 18px;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

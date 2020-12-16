@@ -40,14 +40,15 @@ function App() {
         <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Header />
         <RandomText test={randomText.test} message={randomText.message} />
-        <div className="auth-inner">
-          <Switch>
-            <Route exact path="/about" component={About} />
-            <Route path="/login" component={Login} />
-            <Route path="/petChoice" component={PetChoice} />
-            <Route path="/petChoice" component={Contact} />
-          </Switch>
-        </div>
+
+        <Switch>
+          <Route exact path="/" />
+          <Route exact path="/about" component={About} />
+          <Route path="/login" exact component={Login} />
+          <Route path="/petChoice" exact component={PetChoice} />
+          <Route path="/petChoice" component={Contact} />
+        </Switch>
+
         <div className="pets-flex">
           <SlideShow
             img={FirstPets.img}
