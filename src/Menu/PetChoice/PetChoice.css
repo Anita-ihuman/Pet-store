@@ -1,0 +1,16 @@
+.pets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+  border: 2px solid gainsboro;
+  display: inline-block;
+}
+.inner img {
+  max-width: 400px;
+  max-block-size: 400px;
+  margin: 10px;
+  border: 3px solid rgb(76, 150, 184);
+}

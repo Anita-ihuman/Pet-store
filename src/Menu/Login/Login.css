@@ -1,35 +1,35 @@
-.form{
-   background-color:pink;
-    margin-top: 40px ;
-    border: 2px solid gainsboro;
-    display: flex;
+.form {
+  background-color: #6dc1f8;
+  margin-top: 40px;
+  border: 2px solid gainsboro;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   display: inline-block;
-   padding: 20px;
+  display: inline-block;
+  padding: 40px;
+  border-radius: 15px;
+}
+h3 {
+  font-size: 40px;
+}
+.form-group {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+.form-group label {
+  margin: 2px;
+}
+.form-control {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 2px;
+}
 
-}
-h3{
-    font-size: 40px;
-}
-.form-group{
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-}
-.form-group label{
-margin: 2px;
-}
-.form-control{
-    padding: 10px;
-    border-radius: 4px;
-    margin: 2px;
-}
-
-.btn{
-    margin-left: 12px;
-    padding: 4px;
-    border-radius: 4px;
-    background-color: ivory;
+.btn {
+  margin-left: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: ivory;
 }
