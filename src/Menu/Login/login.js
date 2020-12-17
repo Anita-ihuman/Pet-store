@@ -3,8 +3,8 @@ import './Login.css'
 
 const Login = () => {
   return (
-    <form className='form'>
-      <h3>Sign In</h3>
+    <form className="form">
+      <h3>SIGN IN</h3>
 
       <div className="form-group">
         <label>Email address:</label>
@@ -35,11 +35,11 @@ const Login = () => {
             Remember me
           </label>
         </div>
-      </div>
 
-      <button type="submit" className="btn btn-primary btn-block">
-        Submit
-      </button>
+        <button type="submit" className="btn btn-primary btn-block">
+          Submit
+        </button>
+      </div>
       <p className="forgot-password text-right">
         Forgot <a href="#">password?</a>
       </p>
