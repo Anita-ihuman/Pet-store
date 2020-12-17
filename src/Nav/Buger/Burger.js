@@ -5,17 +5,18 @@ import { withRouter, Link } from "react-router-dom";
 const Burger = (props) => {
   return (
     <Menu {...props}>
-      <Link className="nav-link" to="./petChoice">
-        Pets
+      <Link className="nav-link" to={"/login"}>
+        Login
       </Link>
       <Link className="nav-link" to="/">
         Home
       </Link>
-      <Link className="nav-link" to={"/login"}>
-        Login
+
+      <Link className="nav-link" to="./petChoice">
+        Pets store
       </Link>
       <Link className="nav-link" to={"/about"}>
-        About
+        About us
       </Link>
       <Link className="nav-link" to={"/contact"}>
         Contact Us

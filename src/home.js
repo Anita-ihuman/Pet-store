@@ -1,11 +1,10 @@
 import React from "react";
-import Nav from "./Nav/Nav";
+
 // import Pets from "./Pets";
 import Header from "./Header/Header";
 import RandomText from "./RandomText";
 import SlideShow from "./Slides/SlideShow";
 import Burger from "./Nav/Buger/Burger";
-import Footer from "./Footer/Footer";
 
 const FirstPets = {
   img:
@@ -22,7 +21,6 @@ const randomText = {
 const home = () => {
   return (
     <div>
-      <Nav />
       <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <Header />
       <RandomText test={randomText.test} message={randomText.message} />
@@ -33,7 +31,6 @@ const home = () => {
           specie={FirstPets.specie}
         />
       </div>
-      <Footer />
     </div>
   );
 };
