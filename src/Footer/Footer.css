@@ -32,3 +32,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+.foot {
+  width: 100%;
+}
+    }

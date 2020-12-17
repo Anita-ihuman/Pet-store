@@ -16,8 +16,8 @@ const SlideShow =({ img, title, specie } )=> {
           background: "white",
 
           "@media (max-width: 900px)": {
-            width: "390x",
-            height: "300px",
+            width: "400px",
+            height: "250px",
             background: "white",
             marginBottom: " 30px",
             boxShadow: "3px 3px 3px 3px grey",

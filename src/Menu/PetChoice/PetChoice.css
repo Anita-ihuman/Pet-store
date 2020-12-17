@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
   flex-wrap: wrap;
   border: 2px solid gainsboro;
   display: inline-block;
@@ -14,3 +14,26 @@
   margin: 10px;
   border: 3px solid rgb(76, 150, 184);
 }
+.pets button{
+    background-color: rgb(76, 150, 184);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border:2px solid grey ;
+    border-radius: 3px;
+}
+@media only screen and (max-device-width: 480px) {
+.pets {
+ 
+  padding: 0px;
+  flex-wrap: wrap;
+ 
+  display: inline-block;
+}
+.inner img {
+  max-width:100%;
+  max-block-size: 100%;
+ 
+}
+    }

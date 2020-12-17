@@ -94,4 +94,21 @@ right: 0;
     padding-bottom: 0px;
 }
 
+@media only screen and (max-device-width: 480px) {
+.App {
+  width: 100%;
+}
+.pets-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+#page-wrap{
+    text-align: center;
+ 
+  top: 45%;
+  position: relative;
+}
+    }
 

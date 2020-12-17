@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import './PetChoice.css'
-const apiKey = "0027812f-5efc-4575-be16-650b0dd150fd";
+import "./PetChoice.css";
+// const apiKey = "0027812f-5efc-4575-be16-650b0dd150fd";
 const url = "https://api.thecatapi.com/v1/images/search?limit=20";
 
 const PetChoice = () => {
@@ -24,8 +24,14 @@ const PetChoice = () => {
       console.error(error);
     }
   };
+
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return (
     <div className="pets">
+      <button onClick={refreshPage}>Click to refresh</button>
       {items.map(({ url, id, breed }) => (
         <div key={id} className="inner">
           <img src={url} alt="" />

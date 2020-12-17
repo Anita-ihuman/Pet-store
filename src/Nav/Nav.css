@@ -8,4 +8,9 @@
     font-weight: 700;
     font-size: 18px;
 }
-
+@media only screen and (max-device-width: 480px) {
+.nav {
+justify-content: inherit;
+width: 100%;
+}
+}
