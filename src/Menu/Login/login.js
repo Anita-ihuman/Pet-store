@@ -1,6 +1,6 @@
 import React from "react";
 import './Login.css'
-
+import {Link } from "react-router-dom";
 const Login = () => {
   return (
     <form className="form">
@@ -8,21 +8,16 @@ const Login = () => {
 
       <div className="form-group">
         <label>Email address:</label>
-        <input
-          type="email"
-          className="form-control"
-          placeholder="Enter email"
-        />
       </div>
-
+      <input type="email" className="form-control" placeholder="Enter email" />
       <div className="form-group">
         <label>Password:</label>
-        <input
-          type="password"
-          className="form-control"
-          placeholder="Enter password"
-        />
       </div>
+      <input
+        type="password"
+        className="form-control"
+        placeholder="Enter password"
+      />
 
       <div className="form-group">
         <div className="custom-control custom-checkbox">
@@ -35,13 +30,15 @@ const Login = () => {
             Remember me
           </label>
         </div>
-
-        <button type="submit" className="btn btn-primary btn-block">
-          Submit
-        </button>
+        <Link className="nav-link" to={"./petChoice"}>
+          <button type="submit" className="btn btn-primary btn-block">
+            Submit
+          </button>
+        </Link>
       </div>
       <p className="forgot-password text-right">
-        Forgot <a href="#">password?</a>
+        Forgot
+        <a href="#">password?</a>
       </p>
     </form>
   );
