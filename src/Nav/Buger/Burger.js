@@ -5,10 +5,10 @@ import { withRouter, Link } from "react-router-dom";
 const Burger = (props) => {
   return (
     <Menu {...props}>
-      <Link className="menu-item" href="./petChoice">
+      <Link className="nav-link" to="./petChoice">
         Pets
       </Link>
-      <Link className="menu-item" href="/">
+      <Link className="nav-link" to="/">
         Home
       </Link>
       <Link className="nav-link" to={"/login"}>
