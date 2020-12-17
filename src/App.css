@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: rgb(183, 238, 240);
+  background-color: #ffffff;
   height: 100vh;
+  font-family: 'Lato', sans-serif;
 }
 .pets-flex {
   display: flex;
@@ -47,7 +48,7 @@
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
 
-  background: #373a47;
+  background: #3675a0;
 
 }
 
@@ -64,7 +65,7 @@
 
 /* General sidebar styles */
 .bm-menu {
-  background: rgb(148, 20, 105);
+  background: #2e6086;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
