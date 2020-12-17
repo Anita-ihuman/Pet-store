@@ -1,6 +1,10 @@
 .foot {
-  background-color: rgb(224, 151, 151);
-  padding: 10px;
+  background-color: rgb(46, 46, 46);
+  padding: 0px;
+}
+.foot p{
+  color: aliceblue;
+  padding-top: 4px;
 }
 .icons {
   display: flex;
@@ -8,7 +12,7 @@
   justify-content: center;
 }
 .icons a {
-  padding: 8px;
+  padding: 4px;
 }
 .icons a:hover {
   animation: spinAround 2s linear infinite;

@@ -1,0 +1,13 @@
+.about{
+  background-color:pink;
+    margin-top: 40px ;
+    border: 2px solid gainsboro;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   display: inline-block;
+   padding: 20px;}
+   .text{
+       text-align: center;
+   }

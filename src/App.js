@@ -10,7 +10,6 @@ import Footer from "./Footer/Footer";
 import PetChoice from "./Menu/PetChoice/petChoice";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
 // const secondPets = {
 //   img:
 //     "https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/08/dog-travel-certificate-shutterstock_625242014.jpg",
@@ -31,7 +30,11 @@ function App() {
           <Route path="/petChoice" exact component={PetChoice} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
-        <Footer />
+
+        <div className='fixed'>
+          
+          <Footer />
+        </div>
       </div>
     </Router>
   );
