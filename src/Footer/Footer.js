@@ -14,7 +14,7 @@ const Footer = () => {
       </p>
       <div className="icons">
         <IconContext.Provider
-          value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
+          value={{ style: { fontSize: "30px", color: "#387dac" } }}
         >
           <a
             href="https://twitter.com/Anita_ihuman"
@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
         </IconContext.Provider>
         <IconContext.Provider
-          value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
+          value={{ style: { fontSize: "30px", color: "#387dac" } }}
         >
           <a
             href="https://github.com/Anita-ihuman"
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </IconContext.Provider>
         <IconContext.Provider
-          value={{ style: { fontSize: "30px", color: "rgb(0, 0, 0)" } }}
+          value={{ style: { fontSize: "30px", color: "#387dac" } }}
         >
           <a href="https://twitter.com/Anita_ihuman">
             <FaLinkedin />

@@ -1,8 +1,10 @@
 import React from "react";
+import './Contact.css'
 
 const contact = () => {
   return (
-    <div>
+    <div className='contact'>
+      <h1>CONTACT US</h1>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
