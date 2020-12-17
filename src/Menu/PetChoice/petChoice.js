@@ -1,21 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const services = () => {
+const PetChoice = () => {
+  
+  useEffect(() => {
+    fetchItems();
+  }, []);
+
+  const [items, setItems] = useState([]);
+
+  const fetchItems = async () => {
+    const data = await fetch(
+      "https://thecatapi.com/v1/images?api_key=0027812f-5efc-4575-be16-650b0dd150fd"
+    );
+
+    const items = await data.json();
+    console.log(items.items);
+    setItems(items.items);
+  };
   return (
     <div>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum
-      </p>
+      {items.map((item) => {
+        <h2>{items.name}</h2>;
+      })}
     </div>
   );
 };
 
-export default services;
+export default PetChoice;

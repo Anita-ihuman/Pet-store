@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Pets from "./Pets";
+// import Pets from "./Pets";
 import Header from "./Header/Header";
 import Nav from "./Nav/Nav";
 import RandomText from "./RandomText";
@@ -20,12 +20,12 @@ const FirstPets = {
   specie: "tabby cat",
 };
 
-const secondPets = {
-  img:
-    "https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/08/dog-travel-certificate-shutterstock_625242014.jpg",
-  title: "TOM",
-  specie: "brown tabby",
-};
+// const secondPets = {
+//   img:
+//     "https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/08/dog-travel-certificate-shutterstock_625242014.jpg",
+//   title: "TOM",
+//   specie: "brown tabby",
+// };
 
 const randomText = {
   test: "Meow",
@@ -46,7 +46,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route path="/login" exact component={Login} />
           <Route path="/petChoice" exact component={PetChoice} />
-          <Route path="/petChoice" component={Contact} />
+          <Route path="/contact" component={Contact} />
         </Switch>
 
         <div className="pets-flex">
