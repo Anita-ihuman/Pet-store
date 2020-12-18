@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./PetChoice.css";
+import {Link } from "react-router-dom";
+
+
 // const apiKey = "0027812f-5efc-4575-be16-650b0dd150fd";
 const url = "https://api.thecatapi.com/v1/images/search?limit=20";
 
@@ -30,15 +33,20 @@ const PetChoice = () => {
   }
 
   return (
-    <div className="pets">
+    <div>
       <button onClick={refreshPage}>Click to refresh</button>
-      {items.map(({ url, id, breed }) => (
-        <div key={id} className="inner">
-          <img src={url} alt="" />
-          <p>Cutes Pets </p>
-          <h3>{breed}</h3>
-        </div>
-      ))}
+      <div className="pets">
+        {items.map(({ url, id, breed }) => (
+          <div key={id} className="inner">
+            <Link className="nav-link" to={"/"}>
+              <img src={url} alt="" width="300px" height="300px" />
+            </Link>
+
+            <p>Cute Pets </p>
+            <h3>{breed}</h3>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
