@@ -9,6 +9,7 @@ import Login from "./Menu/Login/login";
 import Footer from "./Footer/Footer";
 import PetChoice from "./Menu/PetChoice/petChoice";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Container from "./Menu/Login/Container/Container";
 
 // const secondPets = {
 //   img:
@@ -26,13 +27,12 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route exact path="/about" component={About} />
-          <Route path="/login" exact component={Login} />
+          <Route path="/login" exact component={Container} />
           <Route path="/petChoice" exact component={PetChoice} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
 
-        <div className='fixed'>
-          
+        <div className="fixed">
           <Footer />
         </div>
       </div>
