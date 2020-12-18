@@ -4,9 +4,12 @@ import { withRouter, Link } from "react-router-dom";
 import "./Burger.css";
 
 const Burger = (props) => {
+  const slides = () => {
+    
+  }
   return (
     <Menu {...props}>
-      <Link className="nav-link" to={"/login"}>
+      <Link className="nav-link" to={"/login"} onClick={()=>slides()}>
         Login
       </Link>
       <Link className="nav-link" to={"/"}>
