@@ -1,7 +1,7 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import { withRouter, Link } from "react-router-dom";
-import './Burger.css'
+import "./Burger.css";
 
 const Burger = (props) => {
   return (
