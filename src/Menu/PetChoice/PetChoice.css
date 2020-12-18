@@ -6,7 +6,7 @@
   padding: 20px;
   flex-wrap: wrap;
   border: 2px solid gainsboro;
-  display: inline-block;
+
 }
 .inner img {
   max-width: 400px;
@@ -14,11 +14,12 @@
   margin: 10px;
   border: 3px solid rgb(76, 150, 184);
 }
-.pets button{
+ button{
     background-color: rgb(76, 150, 184);
     padding: 20px;
     font-size: 18px;
     font-weight: 700;
+    margin: 10px;
     color: white;
     border:2px solid grey ;
     border-radius: 3px;
