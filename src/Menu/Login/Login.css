@@ -1,4 +1,3 @@
-
 .cfb {
   width: 100%;
   display: flex;
@@ -34,7 +33,7 @@
 
   flex-direction: column;
 
-  background-color: #035e7b;
+  background-color: #2e6086;
   opacity: 1;
 
   color: #eefcf8;
@@ -54,11 +53,11 @@
 
   width: 65%;
   height: 100%;
-  background-color: #6dc1f8;
+  background-color: #2e6086;
   opacity: 1;
 
   font-weight: bold;
-  color: #035e7b;
+  color: #2e6086;
 
   transition: 2s;
 }
