@@ -23,7 +23,6 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route exact path="/about" component={About} />
