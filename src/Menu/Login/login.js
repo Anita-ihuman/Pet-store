@@ -1,12 +1,11 @@
 import React from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
-import Burger from "../../Nav/Buger/Burger";
+
 
 const Login = () => {
   return (
-    <>
-      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
+  
       <div className="form-comp cfb">
         <form className="sign-up-form cfb">
           <label>
@@ -44,7 +43,7 @@ const Login = () => {
           </p>
         </form>
       </div>
-    </>
+ 
   );
 };
 
