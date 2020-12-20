@@ -22,24 +22,25 @@ const Container = () => {
 
   return (
     <>
-        <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
-    <div
-      className="Container cfb"
-      style={{
-        margin: "50px auto",
-      }}
-    >
-    
-      <div className={setBannerClass()}>
-        {welcome ? <h2>Hello, New Friend!</h2> : <h2>Welcome!!</h2>}
+      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
+      <div
+        className="Container cfb"
+        style={{
+          margin: "50px auto",
+        }}
+      >
+        <div className={setBannerClass()}>
+          {welcome ? <h2>Hello, New Friend!</h2> : <h2>Welcome!!</h2>}
 
-        <button onClick={() => setWelcome(!welcome)}>
-          {welcome ? "Sign In" : "Create Account"}
-        </button>
+          <button onClick={() => setWelcome(!welcome)}>
+            {welcome ? "Sign In" : "Create Account"}
+          </button>
+        </div>
+        <div className={setFormClass()}>
+          {welcome ? <SignUp /> : <SignIn />}
+        </div>
       </div>
-      <div className={setFormClass()}>{welcome ? <SignUp /> : <SignIn />}</div>
-      </div>
-      </>
+    </>
   );
 };
 

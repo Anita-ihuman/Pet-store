@@ -1,10 +1,9 @@
 import React from "react";
 import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
-import './SlideShow.css'
+import "./SlideShow.css";
 
-
-const SlideShow =({ img, title, specie } )=> {
+const SlideShow = ({ img, title, specie }) => {
   return (
     <StyleRoot>
       <Coverflow
@@ -32,38 +31,23 @@ const SlideShow =({ img, title, specie } )=> {
       >
         <div className="pets">
           <img src={img} alt="" width="300px"></img>
-          <div className="slidesName">
-            {/* <h3>{title}</h3>
-            <p>{specie}</p> */}
-          </div>
+          <div className="slidesName"></div>
         </div>
         <div className="pets">
           <img src={img} alt="" width="300px"></img>
-          <div className="slidesName">
-            {/* <h3>{title}</h3>
-            <p>{specie}</p> */}
-          </div>
+          <div className="slidesName"></div>
         </div>
         <div className="pets">
           <img src={img} alt="" width="300px"></img>
-          <div className="slidesName">
-            {/* <h3>{title}</h3>
-            <p>{specie}</p> */}
-          </div>
+          <div className="slidesName"></div>
         </div>
         <div className="pets">
           <img src={img} alt="" width="300px"></img>
-          <div className="slidesName">
-            {/* <h3>{title}</h3>
-            <p>{specie}</p> */}
-          </div>
+          <div className="slidesName"></div>
         </div>
         <div className="pets">
           <img src={img} alt="" width="300px"></img>
-          <div className="slidesName">
-            {/* <h3>{title}</h3>
-            <p>{specie}</p> */}
-          </div>
+          <div className="slidesName"></div>
         </div>
       </Coverflow>
     </StyleRoot>
