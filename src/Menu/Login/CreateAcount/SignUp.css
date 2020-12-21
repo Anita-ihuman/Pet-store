@@ -14,57 +14,9 @@
     background-color: #1399c5;
 }
 
-/* Banner Side of Container */
-.banner-side{
-    position: absolute;
-    z-index: 2;
-    right: 65%;
 
-    border: 0.1em solid #592941;
-    border-radius: 0.5em;
 
-    width: 35%;
-    height: 100%;
 
-    flex-direction: column;
-
-    background-color: #1399c5;
-    opacity: 1;
-
-    color: #EEFCF8;
-    text-align: center;
-
-    transition: 2s;
-}
-
-/* Form Side of Container */
-.form-side{
-    position: absolute;
-    z-index: 1;
-    right: 0;
-
-    border: 0.1em solid #592941;
-    border-radius: 0.5em;
-
-    width: 65%;
-    height: 100%;
-
-    background-color: #45c4f6e5;
-    opacity: 1;
-
-    font-weight: bold;
-    color: #035E7B;
-
-    transition: 2s;
-}
-
-.send-right{
-    right: 0;
-}
-
-.send-left{
-    right: 35%;
-}
 
 
 /* Layout styling of forms, labels, inputs */

@@ -48,6 +48,7 @@ const SignUp = () => {
         }}
       >
         <form className="sign-up-form cfb" onSubmit={handleSubmit}>
+          <p>Signup</p>
           <div>
             <label htmlFor="firstName">Name :</label>
             <input
@@ -61,7 +62,7 @@ const SignUp = () => {
           </div>
           <br />
           <div>
-            <label htmlFor="email">Name :</label>
+            <label htmlFor="email">Email :</label>
             <input
               type="text"
               name="email"
@@ -71,9 +72,12 @@ const SignUp = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+          <br />
+
           <div>
             <label htmlFor="email">Password :</label>
             <input
+              className="custom-control-input"
               type="text"
               name="Password"
               id="Password"
@@ -82,7 +86,6 @@ const SignUp = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <br />
           <br />
           <Link className="nav-link" to={"./signup"}>
             <button type="submit" className="btn btn-primary btn-block">
