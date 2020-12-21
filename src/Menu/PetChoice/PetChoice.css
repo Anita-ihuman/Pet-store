@@ -32,8 +32,5 @@ button {
 
     display: inline-block;
   }
-  .inner img {
-    max-width: 100%;
-    max-block-size: 100%;
-  }
+ 
 }
