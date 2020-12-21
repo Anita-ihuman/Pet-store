@@ -14,12 +14,12 @@ const Login = () => {
     <>
       <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
       <article
-        className="Container cfb"
+        className="Container "
         style={{
           margin: "50px auto",
         }}
       >
-        <form className="sign-up-form cfb" onSubmit={handleSubmit}>
+        <form className="sign-up-form " onSubmit={handleSubmit}>
         <h1>Login</h1>
           <div>
             <label htmlFor="firstName">Name :</label>
@@ -62,7 +62,7 @@ const Login = () => {
               </button>
             </Link>
             <Link className="nav-link" to={"./signup"}>
-              <button type="submit" className="btn btn-primary btn-block">
+              <button type="submit" className="white">
                 Signup
               </button>
             </Link>

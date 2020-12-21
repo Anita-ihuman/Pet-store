@@ -16,12 +16,12 @@ const SignUp = () => {
     <>
       <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
       <article
-        className="Container cfb"
+        className="Container"
         style={{
           margin: "50px auto",
         }}
       >
-        <form className="sign-up-form cfb" onSubmit={handleSubmit}>
+        <form className="sign-up-form" onSubmit={handleSubmit}>
           <h1>Create an Account!</h1>
           <div>
             <label htmlFor="firstName">Name :</label>
