@@ -3,13 +3,11 @@ import "./App.css";
 import Home from "./home";
 import Nav from "./Nav/Nav";
 import About from "./Menu/About/about";
-import Burger from "./Nav/Buger/Burger";
 import Contact from "./Menu/Contact/contact";
 import Login from "./Menu/Login/login";
 import Footer from "./Footer/Footer";
 import PetChoice from "./Menu/PetChoice/petChoice";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Container from "./Menu/Login/Container/Container";
 import SignUp from "./Menu/Login/CreateAcount/SignUp";
 
 // const secondPets = {
