@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./Container.css";
 
+
 import SignIn from "../CreateAcount/SignUp";
 import SignUp from "../login";
 import Burger from "../../../Nav/Buger/Burger";
@@ -29,15 +30,16 @@ const Container = () => {
           margin: "50px auto",
         }}
       >
-        <div className={setBannerClass()}>
+        {/* <div className={setBannerClass()}>
           {welcome ? <h2>Hello, New Friend!</h2> : <h2>Welcome!!</h2>}
 
           <button onClick={() => setWelcome(!welcome)}>
             {welcome ? "Sign In" : "Create Account"}
           </button>
-        </div>
+        </div> */}
         <div className={setFormClass()}>
-          {welcome ? <SignUp /> : <SignIn />}
+        
+          
         </div>
       </div>
     </>
