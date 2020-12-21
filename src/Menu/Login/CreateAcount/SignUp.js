@@ -4,39 +4,13 @@ import "./SignUp.css";
 import { Link } from "react-router-dom";
 import Burger from "../../../Nav/Buger/Burger";
 
-// const SignUp = () => {
-//   return (
-//     <div className="form-comp cfb">
-//       <h1>Create an Account!</h1>
-//       <form className="sign-up-form cfb">
-//         <label>
-//           Name:
-//           <br />
-//           <input />
-//         </label>
-//         <label>
-//           Email:
-//           <br />
-//           <input />
-//         </label>
-//         <label>
-//           Password:
-//           <br />
-//           <input />
-//         </label>
-//         <br />
-//         <button>Sign Up!</button>
-//       </form>
-//     </div>
-//   );
-// };
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-   const [password, setPassword] = useState("");
+  const [password, setPassword] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(firstName, email,password);
+    console.log(firstName, email, password);
   };
   return (
     <>
@@ -48,7 +22,7 @@ const SignUp = () => {
         }}
       >
         <form className="sign-up-form cfb" onSubmit={handleSubmit}>
-          <p>Signup</p>
+          <h1>Create an Account!</h1>
           <div>
             <label htmlFor="firstName">Name :</label>
             <input

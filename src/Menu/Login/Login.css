@@ -7,8 +7,6 @@
 
 /* Container Styling */
 .Container {
-  position: relative;
-
   width: 50%;
   height: 60%;
 
@@ -16,10 +14,8 @@
   border: 0.1em solid #592941;
   border-radius: 0.5em;
 
-   background-color: #2e6086;
+  background-color: #6dc1f8;
 }
-
-
 
 .send-right {
   right: 0;
@@ -75,6 +71,6 @@ input {
   padding: 0.5em;
   border: 1px solid #035e7b;
 }
-.submit{
+.submit {
   display: flex;
 }

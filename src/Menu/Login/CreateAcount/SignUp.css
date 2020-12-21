@@ -1,68 +1,60 @@
-
-
 /* Container Styling */
-.Container{
-  max-width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    box-shadow: 1px 2px 2px #592941;
-    border: 0.1em solid #592941;
-    border-radius: 0.5em;
+  box-shadow: 1px 2px 2px #592941;
+  border: 0.1em solid #592941;
+  border-radius: 0.5em;
 
-    background-color: #1399c5;
+  background-color: #6dc1f8;
 }
-
-
-
-
-
 
 /* Layout styling of forms, labels, inputs */
-.form-comp{
-    flex-direction: column;
+.form-comp {
+  flex-direction: column;
 }
 
-.sign-up-form{
-    width: 50%;
-    flex-direction: column;
+.sign-up-form {
+  width: 50%;
+  flex-direction: column;
 }
 
-.sign-up-form > label{
-    padding: 0.5em;
-    width: 100%
+.sign-up-form > label {
+  padding: 0.5em;
+  width: 100%;
 }
 
-.sign-up-form > label > input{
-    width: 100%
+.sign-up-form > label > input {
+  width: 100%;
 }
-
 
 /* All Buttons Styling */
 button {
-    padding: 1em;
+  padding: 1em;
 
-    border: 1px solid #EEFCF8;
-    border-radius: 5em;
-    
-    background-color: #035E7B;
+  border: 1px solid #eefcf8;
+  border-radius: 5em;
 
-    color: #EEFCF8;
-    font-weight: bold;
-    text-decoration: none;
+  background-color: #035e7b;
+
+  color: #eefcf8;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
 }
 
-button:hover{
-    opacity: 0.9;
+button:hover {
+  opacity: 0.9;
 }
 
 /* All Inputs Styling */
 input {
-    padding: 0.5em;
-    border: 1px solid #035E7B;
+  padding: 0.5em;
+  border: 1px solid #035e7b;
 }
