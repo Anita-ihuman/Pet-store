@@ -60,6 +60,7 @@ const Login = () => {
         }}
       >
         <form className="sign-up-form cfb" onSubmit={handleSubmit}>
+          <p>Login</p>
           <div>
             <label htmlFor="firstName">Name :</label>
             <input
@@ -83,6 +84,7 @@ const Login = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+          <br />
           <div className="custom-control custom-checkbox">
             <input
               type="checkbox"
@@ -93,20 +95,22 @@ const Login = () => {
               Remember me
             </label>
           </div>
-          <Link className="nav-link" to={"./petChoice"}>
-            <button type="submit" className="btn btn-primary btn-block">
-              Submit
-            </button>
-          </Link>
+          <div className="submit">
+            <Link className="nav-link" to={"./petChoice"}>
+              <button type="submit" className="btn btn-primary btn-block">
+                Submit
+              </button>
+            </Link>
+            <Link className="nav-link" to={"./signup"}>
+              <button type="submit" className="btn btn-primary btn-block">
+                Signup
+              </button>
+            </Link>
+          </div>
 
           <p className="forgot-password text-right">
             Forgot // <a href="#">password?</a>
           </p>
-          <Link className="nav-link" to={"./signup"}>
-            <button type="submit" className="btn btn-primary btn-block">
-              Signup
-            </button>
-          </Link>
         </form>
       </article>
     </>

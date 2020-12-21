@@ -19,48 +19,7 @@
    background-color: #2e6086;
 }
 
-/* Banner Side of Container */
-.banner-side {
-  position: absolute;
-  z-index: 2;
-  right: 65%;
 
-  border: 0.1em solid #592941;
-  border-radius: 0.5em;
-
-  width: 35%;
-  height: 100%;
-
-  flex-direction: column;
-
-  background-color: #2e6086;
-  opacity: 1;
-
-  color: #eefcf8;
-  text-align: center;
-
-  transition: 2s;
-}
-
-/* Form Side of Container */
-.form-side {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-
-  border: 0.1em solid #592941;
-  border-radius: 0.5em;
-
-  width: 65%;
-  height: 100%;
-  background-color: #2e6086;
-  opacity: 1;
-
-  font-weight: bold;
-  color: #2e6086;
-
-  transition: 2s;
-}
 
 .send-right {
   right: 0;
@@ -115,4 +74,7 @@ button:hover {
 input {
   padding: 0.5em;
   border: 1px solid #035e7b;
+}
+.submit{
+  display: flex;
 }
