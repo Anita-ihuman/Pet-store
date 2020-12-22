@@ -9,8 +9,8 @@
   margin-bottom: 100px;
 }
 .inner img {
-  max-width: 400px;
-  max-block-size: 400px;
+  max-width: 300px;
+  max-block-size: 300px;
   margin: 10px;
   border: 3px solid rgb(76, 150, 184);
   object-fit: cover;
