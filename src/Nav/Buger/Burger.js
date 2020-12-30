@@ -6,7 +6,7 @@ import "./Burger.css";
 const Burger = ({ props, callbackFromParent }) => {
   useEffect(() => {
     console.log(window.location.href, "hello");
-  }, [])
+  }, []);
   return (
     <Menu {...props} isOpen={false}>
       <Link className="nav-link" to={"/"}>
@@ -27,6 +27,6 @@ const Burger = ({ props, callbackFromParent }) => {
         Contact Us
       </Link>
     </Menu>
-  )
+  );
 };
 export default withRouter(Burger);
