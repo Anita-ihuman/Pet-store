@@ -16,6 +16,11 @@
   font-weight: 800;
   color: #053e52;
 }
+label{
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 5px;
+}
 .sign-up-form {
   padding: 0%;
   width: 50%;
@@ -42,6 +47,7 @@ button {
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 button:focus {
