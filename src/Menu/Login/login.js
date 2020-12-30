@@ -20,7 +20,7 @@ const Login = () => {
         }}
       >
         <form className="sign-up-form " onSubmit={handleSubmit}>
-        <h1>Login</h1>
+        <h1 className='login'>Login</h1>
           <div>
             <label htmlFor="firstName">Name :</label>
             <input
