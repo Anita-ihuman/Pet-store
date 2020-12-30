@@ -22,7 +22,7 @@ const SignUp = () => {
         }}
       >
         <form className="sign-up-form" onSubmit={handleSubmit}>
-          <h1>Create an Account!</h1>
+          <h1 className="login">Create an Account!</h1>
           <div>
             <label htmlFor="firstName">Name :</label>
             <input
@@ -61,7 +61,7 @@ const SignUp = () => {
             />
           </div>
           <br />
-          <Link className="nav-link" to={"./signup"}>
+          <Link className="nav-link" to={"./login"}>
             <button type="submit" className="btn btn-primary btn-block">
               Submit
             </button>
