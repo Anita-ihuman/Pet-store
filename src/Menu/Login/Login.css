@@ -98,7 +98,7 @@ input {
 .Container{
  
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 .sign-up-form{
   margin: 0;
@@ -114,6 +114,13 @@ input {
  padding-bottom:15px ;
 
 }
+.login{
+  font-size: 19px;
+ 
+}
 
-
+.sign-up-form {
+  margin: 0;
+  padding: 10px;
+}
 }

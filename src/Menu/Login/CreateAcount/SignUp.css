@@ -63,4 +63,23 @@ input {
   padding: 0.5em;
   border: 1px solid #035e7b;
 }
+@media (max-width: 900px){
+
+.login{
+  font-size: 14px;
+  font-weight: 800;
+  color: #053e52;
+
+}
+.Container {
+padding: 10px;
+
+}
+.sign-up-form {
+  margin: 0;
+}
+.sign-up-form {
+  padding: 0px;
+}
+}
 
