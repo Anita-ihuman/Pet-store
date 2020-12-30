@@ -3,7 +3,7 @@ import "./PetChoice.css";
 import { Link } from "react-router-dom";
 import Burger from "../../Nav/Buger/Burger";
 
-const url = "https://api.thecatapi.com/v1/images/search?limit=20";
+const url = "https://api.thecatapi.com/v1/images/search?limit=30";
 
 const PetChoice = () => {
   useEffect(() => {
