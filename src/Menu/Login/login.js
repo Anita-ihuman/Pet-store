@@ -12,7 +12,7 @@ const Login = () => {
   };
   return (
     <>
-      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />;
+      <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <article
         className="Container "
         style={{
