@@ -13,7 +13,11 @@
 
   background-color: #6dc1f8;
 }
-
+.login{
+  font-size: 30px;
+  font-weight: 800;
+  color: #053e52;
+}
 .send-right {
   right: 0;
 }
@@ -22,7 +26,7 @@
   right: 35%;
 }
 
-/* Layout styling of forms, labels, inputs */
+
 .form-comp {
   flex-direction: column;
 }

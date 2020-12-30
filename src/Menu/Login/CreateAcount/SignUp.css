@@ -11,7 +11,11 @@
 
   background-color: #6dc1f8;
 }
-
+.login{
+  font-size: 30px;
+  font-weight: 800;
+  color: #053e52;
+}
 .sign-up-form {
   padding: 0%;
   width: 50%;
@@ -53,3 +57,4 @@ input {
   padding: 0.5em;
   border: 1px solid #035e7b;
 }
+
