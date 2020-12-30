@@ -8,9 +8,8 @@ import Burger from "./Nav/Buger/Burger";
 
 const FirstPets = {
   img:
-    "https://image.freepik.com/free-vector/petshop-with-cat-dog_9645-763.jpg",
-  title: "Jerry",
-  specie: "tabby cat",
+    "https://epicpetclub.com/wp-content/uploads/2020/03/orange-tabby-cat.jpg",
+
 };
 
 const randomText = {
