@@ -20,7 +20,7 @@ const randomText = {
 const home = () => {
   return (
     <div>
-  
+
       <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <Header />
       <RandomText test={randomText.test} message={randomText.message} />
