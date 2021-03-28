@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Burger from "../../Nav/Buger/Burger";
 
 const url = "https://api.thecatapi.com/v1/images/search?limit=30";
-
+// important link for uplaod button   https://www.youtube.com/watch?v=iBonBC-ySgo
 const PetChoice = () => {
   useEffect(() => {
     fetchItems();
